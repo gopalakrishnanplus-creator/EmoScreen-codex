@@ -10,8 +10,8 @@ PRICE_CHOICES = [
     # Temporarily hidden. Re-enable when these price points are needed again.
     # ("INR_100", "₹100"),
     # ("INR_20", "₹20"),
-    (PRICE_INR_1, "₹1"),
-    (PRICE_INR_0, "₹0"),
+    # (PRICE_INR_1, "₹1"),
+    # (PRICE_INR_0, "₹0"),
 ]
 
 PRICE_MAP = {

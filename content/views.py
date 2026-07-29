@@ -242,7 +242,7 @@ def clinic_send(request, code):
 
                 form_code = selected_form.split(":", 1)[1]
                 paid_form = get_object_or_404(EsCfgForm, form_code=form_code, is_active=True)
-                price_variant = form.cleaned_data.get("price_variant") or "INR_0"
+                price_variant = form.cleaned_data.get("price_variant") or "INR_499"
                 base_amount, discount_paise, final_amount = calculate_order_amounts(
                     price_variant,
                     form.cleaned_data.get("discount_percent"),

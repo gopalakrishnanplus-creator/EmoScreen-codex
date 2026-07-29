@@ -135,7 +135,7 @@ class ClinicSendForm(forms.Form):
         label="Form Amount",
         required=False,
         choices=PRICE_CHOICES,
-        initial="INR_0",
+        initial=PRICE_INR_499,
     )
     discount_percent = forms.DecimalField(
         label="Discount Percent (optional)",
